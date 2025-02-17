@@ -13,7 +13,7 @@ namespace CSharplight
             string text = "Сталкер — это персонаж, исследующий опасные и загадочные зоны," + 
                 " наполненные аномалиями и артефактами, в поисках приключений и тайн, часто вдохновленный произведениями литературы и кино.";
             Console.WriteLine($"Исходный текст:\n" + text);
-            string[] words = text.Split(' ');
+            string[] words = text.Split();
 
             foreach (string word in words)
             {
